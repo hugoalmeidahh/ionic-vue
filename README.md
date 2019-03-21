@@ -52,12 +52,13 @@ npx cap init ionic-vue ga.hhalmeida.ionicvue
  ``` 
 
  - Android
+ ```bash
     npx cap add android
     npx cap sync
     npm run build
     npx cap copy
     npx cap open android
-
+```
 
  - iOS
  - if you don't instaled cocoapods 
